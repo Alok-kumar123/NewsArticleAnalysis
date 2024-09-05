@@ -2,6 +2,9 @@
 
 ArticleChat is an intelligent chatbot that processes and interacts with content from news articles and web pages. By leveraging advanced Natural Language Processing (NLP) models and a FAISS-based vector search system, ArticleChat provides context-aware responses to user inquiries about the content of the articles.
 
+![image](https://github.com/user-attachments/assets/196554ad-c17d-445b-ac05-91c5b9ae8c38)
+
+
 ## Features
 
 - **Article Processing**: Fetch and parse content from a list of URLs, including handling JavaScript-rendered pages.
