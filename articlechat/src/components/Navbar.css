@@ -1,0 +1,49 @@
+.navbar {
+    background-color: blanchedalmond;
+    color: brown;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    position: fixed;    /* Fix the navbar at the top */
+    top: 0;             /* Position it at the top */
+    left: 0;            /* Align it to the left edge */
+    width: 100%;        /* Make it span the full width of the page */
+    z-index: 1000;      /* Ensure it appears above other content */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: brown;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 3rem;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: brown;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: blue;
+}
+
+/* Add padding to the body to avoid content being hidden under the navbar */
+body {
+    padding-top: 80px; /* Adjust this value based on the height of your navbar */
+}
