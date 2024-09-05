@@ -150,7 +150,7 @@ def ask_ques():
     relevant_chunks=" ".join([chunk_text[i] for i in I[0]])
 
     #initialize groq_chat
-    groq_api_key='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'
+    groq_api_key='####################'
     model='llama3-8b-8192'
     groq_chat=ChatGroq(
         groq_api_key=groq_api_key,
